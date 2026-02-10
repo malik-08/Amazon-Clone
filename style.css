@@ -327,7 +327,6 @@ p{
 
 .shop-section-2{
     background-color:rgb(251, 253, 241);
-    height: 500px;
     height: 420px;
     display: flex;
     justify-content: space-evenly;
@@ -356,29 +355,44 @@ p{
     margin-left: 14px;
 
 }
-
-
-
-
-
-
-
-/* Slider Section Styling */
-.slider-section {
-    background-color: white;
-    padding: 20px;
-    
 /*footer*/
-.foot-panel-1{
-    height: 50px;
+
+.panel1{
+    background: #37475A;
+    color: white;
+    height: 40px;
     width: 100%;
-    background-color: #232F3E;
+    display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    margin-top: 4px;
+    font-size: small;
+    font-family: inherit;
+
 }
 
+.panel2{
+    background-color: #232F3E;
+    color: white;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+ul a  {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 14px;
+    color:#dddddd
+}
+
+ul p{
+    padding-left: 0px;
+    font-size: larger;
+    font-family: inherit;
+    font-weight:600 ;
+}
 
 
 
