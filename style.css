@@ -328,6 +328,7 @@ p{
 .shop-section-2{
     background-color:rgb(251, 253, 241);
     height: 500px;
+    height: 420px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -367,48 +368,18 @@ p{
     background-color: white;
     padding: 20px;
     
-}
-
-.slider-section h2 {
-    font-size: 20px;
-    margin-bottom: 15px;
-    padding-left: 10px;
-}
-
-/* The "Window" */
-.slider-container {
+/*footer*/
+.foot-panel-1{
+    height: 50px;
     width: 100%;
-    overflow-x: auto; /* Enables horizontal scrolling */
-    scrollbar-width: none; /* Hides scrollbar for Firefox */
-    -ms-overflow-style: none; /* Hides scrollbar for IE/Edge */
-}
-
-.slider-container::-webkit-scrollbar {
-    display: none; /* Hides scrollbar for Chrome/Safari */
-}
-
-/* The "Track" */
-.slider-track {
-    display: flex;
-    gap: 15px;
-    padding: 10px;
-    /* Optional: helps with mobile feel */
-    scroll-snap-type: x mandatory; 
-}
-
-/* Individual Product Styling */
-.product-card {
-    flex: 0 0 auto; /* Prevents images from shrinking */
-    width: 180px;
-    background: #fff;
-    scroll-snap-align: start;
-    display: flex;
+    background-color: #232F3E;
     justify-content: center;
     align-items: center;
+    color: white;
+    margin-top: 4px;
 }
 
-.product-card img {
-    max-width: 100%;
-    height: 150px;
-    object-fit: contain; /* Keeps image proportions correct */
-}
+
+
+
+
