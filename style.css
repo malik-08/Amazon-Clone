@@ -265,7 +265,7 @@ font-weight: 700;
 .container-1{
     background-image: url(assests/51H+qSYvguL._SX1500_.jpg);
     background-size: cover;
-    height:350px;
+    height:280px;
     width: 100%;
 }
 .shop-section{
@@ -322,5 +322,5 @@ img{
 p{
     font-family: inherit;
     font-size: small;
-    padding-left: 25px;
+    padding-left: 28px;
 }
