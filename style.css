@@ -6,11 +6,13 @@
 }
 
 .navbar{
-    height: 62px;
+    min-height: 55px;
+    width: 100%;
     background: #131921;
     color: white;
     display: flex;
     justify-content:space-evenly ;
+    position: relative;
 }
 /*logo styling*/
 
@@ -23,12 +25,12 @@
     padding-top: 5px;
 }
 
-.logo{
-    background-image:url("assests/amazon_logo.png");
-    background-size: cover;
-    height: 50px;
-    width :150%;
+.logo-1{
+    margin: 0px;
+    padding-left: 5px;
+
 }
+
 .border {
     border: 1.5px solid transparent;
 }
@@ -71,11 +73,11 @@ border:1.5px solid  white;
     justify-content: center;
     flex-grow: 1;
     height: 40px;
-    width:auto;
+   min-width: auto; 
     border-radius: 4px;
     overflow: hidden;
     margin: 0 20px;
-    padding-top: 12px;  
+    padding-top: 8px;  
 
 }
 
@@ -135,11 +137,16 @@ border:1.5px solid  white;
     align-items: center;
 }
 
-.nav-lang, .nav-cart {
-    padding: 8px;
+ .nav-cart {
+    padding: px;
     cursor: pointer;
     border: 1px solid transparent;
+     margin-left: 20px;
+    margin-right: 8px;
 }
+
+
+
 .nav-cart{
      margin-left: 20px;
     margin-right: 8px;
@@ -147,19 +154,21 @@ border:1.5px solid  white;
 .flag{
     height: 20px;
     width: 25px;
+    padding-bottom: 10px;
+    margin-left: 0%;
 }
 .nav-signin{
 
-   margin-left: 20px;
+   
    margin-right: 8px;
-   margin-top: 8px;
+   margin-top: 5px;
    padding-top: 4px;
 }
 
 .nav-order{
 
-   margin-left: 10px;
-   margin-top: 8px;
+  
+   margin-top: 5px;
    padding-top: 4px;
 }
  .nav-lang {
@@ -185,10 +194,12 @@ font-weight: 700;
 .nav-cart {
     display: flex;
     align-items: center;
+    padding-right: 4px;
 }
 
 .cart-icon {
     position: relative;
+
 }
 
 .cart-count {
@@ -210,63 +221,30 @@ font-weight: 700;
     height:35px;
     width:100%;
     background-color: #232F3E;
-    display: flex;
-    align-items: center;
+    display: flex; 
     color:whitesmoke;
     
 }
+
 .panel-opt{
     display: flex; 
-    margin-left: 0;
-}
-.panel-opt{
-    margin-left: 10px;
+    justify-content: space-between;
     align-items: center;
+    margin-left: 9px;
+    
+    
 }
 
-.opt-1{
+.opt-1 , .opt-2 , .opt-3 , .opt-4 , .opt-5 , .op-6{
     font-family: inherit;
     font-size: smaller;
-     margin-right: 9px;
-     padding:8px 5px;
+    padding: 8px 7px;    
      
 }
  
-.opt-2{
-    font-family: inherit;
-    font-size: smaller;
-    margin-right: 9px;
-     padding:8px 5px;
+.p-1{
+    padding-left: 0px;
 }
- 
-.opt-3{
-    font-family: inherit;
-    font-size: smaller;
-     margin-right: 9px;
-      padding:8px 5px;
-}
- 
-.opt-4{
-    font-family: inherit;
-    font-size: smaller;
-    margin-right: 9px;
-     padding:8px 5px;
-}
- 
-.opt-5{
-    font-family: inherit;
-    font-size: smaller;
-     margin-right: 9px;
-     
-}
-
-.opt-6{
-    font-family: inherit;
-    font-size: smaller;
-    margin-right: 9px;
-     padding:8px 5px;
-}
-
  
 .nav-item{
     align-items: center;
