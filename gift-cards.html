@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+<!--navbar-->
+        <div class="navbar">
+            <div class="nav-logo border"   onclick="window.location.href='index.html'">
+            <img  src="assests/amazon_logo.png"  class=" logo-1"alt="Amazon logo border">
+            </div>
+                     <div class="nav-location  border">
+                       <i class="fa-solid fa-location-dot"></i>
+                      </div>
+                             <div class="location-text border">
+                                   <span class="line-1">Deliver to</span>
+                                   <span class="line-2">Pakistan</span>
+                              </div>
+
+                          <!-- search bar-->     
+
+                      <div class="nav-search ">
+                            <select class="search-select">
+                                <option>All</option> 
+                            </select>
+                            <input type="text" placeholder="Search Amazon" class="search-input">
+                             <div class="search-icon">
+                                 <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                             </div>
+                       
+
+                             <!--right items-->
+                    <div class="nav-right">
+                             <div class="nav-lang border">
+                              <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" alt="US Flag"class ="flag">
+                             <span>EN</span>
+                           <i class="fa-solid fa-caret-down border"></i>
+                              </div>
+                           </div>
+
+                           <div class="nav-signin border">
+                           <p><span>Hello,sign in </span></p>
+                           <p class=" nav-second">Account & Lists</p>
+                           </div> 
+
+
+                           <div class="nav-order border">
+                           <p><span>Returns</span></p>
+                           <p class=" nav-second">& orders</p>
+                           </div>
+                    
+                          
+                                    <div class="nav-cart border">
+                                         <div class="cart-icon">
+                                          <span class="cart-count">0</span>
+                                          <i class="fa-solid fa-cart-shopping"></i>
+                                    </div>
+                                </div>
+            
+        </div>
+<!--sub navbar-->
+
+    <div class="sub-navbar">
+        <div class="nav-item border">
+            <span class="hamburger-icon ">&#9776;</span>
+            <span class="bold-text">All</span>
+        </div>
+        <div class="panel-opt ">
+              <div class="opt-0 border"><a href="index.html" class="p-1">Home</a></div>
+          <div class="opt-1 border"><a href="today-deals.html" class="p-1">Today's Deals</a></div>
+           <div class="opt-2 border"><a href="prime-video.html" class="p-1">Prime Video</a></div> 
+           <div class="opt-3 border"><a href="registry.html" class="p-1">Registry</a></div> 
+            <div class="opt-4 border"><a href="gift-cards.html" class="p-1">Gift Cards</a></div>
+            <div class="opt-5 border"><a href="customer-service.html" class="p-1">Customer Service</a></div>
+            <div class="opt-5 border"><a href="sell.html" class="p-1">Sell</a></div>
+             
+        </div>
+    </div>
+    </header>
+
+
+     <section class="gift-card-carousel">
+    <div class="carousel-header">
+        <h2>Gift cards they'll love</h2>
+        <a href="#" class="shop-all">Shop all</a>
+    </div>
+
+    <div class="card-scroller">
+        <div class="gc-card hover-card ">
+            <div class="gc-image-wrapper " >
+                <img src="./assests/c1.jpg" alt="Amazon Gift Card">
+            </div>
+            <p class="gc-title">Amazon eGift Card | Appreciation,...</p>
+            <p class="gc-price"><sup>$</sup>50<sup>00</sup></p>
+        </div>
+
+        <div class="gc-card hover-card">
+            <div class="gc-image-wrapper hover-card">
+                <img src="./assests/c2.jpg" alt="H&M">
+            </div>
+            <p class="gc-title">H&M eGift Card</p>
+            <p class="gc-price"><sup>$</sup>100<sup>00</sup></p>
+        </div>
+
+        <div class="gc-card hover-card">
+            <div class="gc-image-wrapper hover-card">
+                <img src="./assests/c3.jpg" alt="Starbucks">
+            </div>
+            <p class="gc-title">Starbucks eGift Card | Just Becaus...</p>
+            <p class="gc-price"><sup>$</sup>15<sup>00</sup></p>
+        </div>
+
+        <div class="gc-card hover-card">
+            <div class="gc-image-wrapper hover-card">
+                <img src="./assests/c4.jpg" alt="Apple">
+            </div>
+            <p class="gc-title">Apple Gift Card - App Store, iTune...</p>
+            <p class="gc-price"><sup>$</sup>50<sup>00</sup></p>
+        </div>
+
+        <div class="gc-card hover-card">
+            <div class="gc-image-wrapper hover-card">
+                <img src="./assests/c5.jpg" alt="Uber">
+            </div>
+            <p class="gc-title">Uber eGift Card | Digital Delivery</p>
+            <p class="gc-price"><sup>$</sup>50<sup>00</sup></p>
+        </div>
+    </div>
+</section>
+   
+
+
+<div class="carousel-wrapper">
+  <h2 class="title">Shop gift cards by brand</h2>
+  
+  <div class="brand-carousel">
+    <div class="brand-card">
+      <img src="./assests/cc1.png" class="imge">
+    </div>
+    
+    <div class="brand-card">
+      <img src="./assests/cc2.png"  class="imge">
+    </div>
+
+    <div class="brand-card">
+      <img src="./assests/cc3.png" class="imge">
+    </div>
+
+    <div class="brand-card">
+      <img src="./assests/cc4.png" class="imge" >
+    </div>
+
+    <div class="brand-card">
+      <img src="./assests/cc5.png" class="imge">
+    </div>
+    <div class="brand-card">
+      <img src="./assests/cc6.png" class="imge">
+    </div>
+    <div class="brand-card">
+      <img src="./assests/cc8.png" class="imge">
+    </div>
+    
+     
+
+
+  </div>
+</div>
+
+
+
+    <footer>
+       <div class="panel1">
+        Back to top
+       </div>
+
+       <div class="panel2">
+        <ul>
+        <p>Get to know us</p>
+           <a>Careers</a> 
+           <a>Blog</a> 
+           <a>About Amazon</a> 
+           <a> Investor Relations</a> 
+           <a> Amazon Devices</a> 
+           <a >Amazon Science </a> 
+         
+        </ul>
+
+        <ul>
+        <p>Make Money with Us</p>
+           <a>Sell products on Amazon</a> 
+           <a>Sell on Amazon Business</a> 
+           <a>Sell apps on Amazon</a> 
+           <a> Become an Affiliate</a> 
+           <a> Advertise Your Products</a> 
+           <a >Self-Publish with Us</a> 
+         
+        </ul>
+        <ul>
+        <p>Amazon Payment Products</p>
+           <a>Amazon Business Card</a> 
+           <a>Shop with Points</a> 
+           <a>Reload Your Balance</a> 
+           <a> Amazon Currency Converter</a> 
+        </ul>
+        <ul>
+        <p class="p3">Let Us Help You</p>
+           <a>Amazon and COVID-19</a> 
+           <a>your Account</a> 
+           <a>Your Orders</a> 
+           <a> Returns & Replacements</a> 
+           <a> Manage Your Content and Device</a> 
+           <a >Help </a> 
+    
+        </ul>
+       </div>
+    </footer>
+
+
+</body>
+</html>
